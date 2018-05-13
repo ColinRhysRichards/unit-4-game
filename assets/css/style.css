@@ -1,4 +1,4 @@
-body{
+body{background-image: url(https://images.alphacoders.com/743/743393.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: pink;
@@ -6,9 +6,7 @@ body{
 }
 
 #container{ text-align: center;
-    opacity: 0.65;
-    background-color: #f0d0d6;
-    color: brown;
+    background: rgba(35, 6, 51, 0.9);
     margin: 30px 100px 20px 100px;
     padding: 30px 100px 30px 100px;
     border-style: solid;
@@ -17,20 +15,24 @@ body{
 
 }
 
+#list{
+    list-style-type: disc;
+}
 
-
-h1{ text-align: center;
-    font-size: 35px;
-    font-weight: 900;
-    color: rgb(7, 7, 46);
+h1{ font-family: 'Titan One', cursive;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(252, 248, 196);
 
 }
 
-p { opacity: 1;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+li { font-family: 'Archivo Black', sans-serif;
+    text-align: left;
+    line-height: 1.25;
+    font-weight: 100;
+    font-size: 18px;
+    color:  rgb(167, 204, 253);
 
 }
 
@@ -38,28 +40,30 @@ p { opacity: 1;
     padding: 30px 100px 30px 100px;
     border-style: solid;
     border-width: 2px;
-    border-color: rgb(71, 11, 128);
+    border-color:  rgb(252, 248, 196);
+    font-family: 'Roboto Slab', serif;
 
 }
 
-#winslosses {  margin: 30px 100px 20px 100px;
+#winslosses { font-family: 'Archivo Black', sans-serif;
+    text-align: left;  
+    display: inline-block;
+    margin: 30px 100px 20px 100px;
     padding: 30px 100px 30px 100px;
     border-style: solid;
     border-width: 2px;
-    border-color: rgb(71, 11, 128);
+    border-color:  rgb(252, 248, 196);
+    font-family: 'Roboto Slab', serif;
 
 }
 
 .crystals {  margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(71, 11, 128);
-
 }
 
-h2 {  text-align: center;
+h2 {text-align: center;
     font-size: 20px;
     font-weight: 900;
-    color: rgb(7, 7, 46);
+    color:  rgb(252, 248, 196);
+    font-family: 'Roboto Slab', serif;
 }
